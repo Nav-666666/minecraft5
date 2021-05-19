@@ -134,7 +134,7 @@ function up(){
     }
 }
 function down(){
-    if (player_y >=500){
+    if (player_y <=500){
         player_y = player_y + block_image_height;
         console.log("block image height = " + block_image_height);
         console.log("when down arrow key is pressed, x = " + player_x + " ,y = " + player_y);
